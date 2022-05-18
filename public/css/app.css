@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  background-color: #1c1c1c;
+  height: 800px;
+}
+
+main .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0px auto;
+  text-transform: uppercase;
+  color: white;
+}
+
+main .card {
+  width: 16.6666666667%;
+  height: 50%;
+  padding: 10px;
+}
+
+main .button {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+main .button button {
+  color: white;
+  background-color: #0282f9;
+  padding: 10px 40px;
+  border: none;
+}
+
