@@ -13,10 +13,15 @@
             <!-- foreach per card -->
             @foreach ($card as $item)
                 <div class="card">
+                    <a href="/card">
                     <img src={{$item ['thumb']}} alt="{{$item ['series'] }}">
                     <p>{{$item ['series'] }}</p>
+
+                    </a>
+                    
                 </div>
-                @endforeach
+                
+            @endforeach
         </div>
         <div class="button">
             <button>LOAD MORE</button>
