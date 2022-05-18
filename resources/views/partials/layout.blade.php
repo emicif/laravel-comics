@@ -33,12 +33,5 @@
             <!-- include header -->
             @include ('partials/header')
 
-        <main>
-            MAIN
-        </main>
-
-
-        <!-- include footer -->
-        @include ('partials/footer')
     </body>
 </html>
