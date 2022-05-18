@@ -71,6 +71,12 @@ main {
         padding: 10px;
     }
 
+    a {
+        text-decoration: none;
+        color: white;
+        cursor: pointer;
+    }
+
     .button {
         display: flex;
         justify-content: center;
@@ -98,6 +104,7 @@ main {
 
     .item {
         display: flex;
+
         color: white;
         line-height: 200px;
         vertical-align: middle;
@@ -106,5 +113,49 @@ main {
         img {
             height: 100px;
         }
+    }
+}
+
+//footer
+
+footer {
+    height: 500px;
+    background-image: url("../../public/img/footer-bg.jpg");
+    color: white;
+    justify-content: space-around;
+
+    img {
+        height: 500px;
+        object-fit: cover;
+    }
+
+    li {
+        color: grey;
+        padding-top: 5px;
+    }
+
+    li a {
+        text-decoration: none;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+
+}
+
+.footer-bottom {
+    background-color: #303030;
+    height: 100px;
+    justify-content: space-around;
+
+
+    button {
+        color: white;
+        background-color: #0282f9;
+        padding: 10px 40px;
+        border: none;
+        padding: 10px;
     }
 }

@@ -57,6 +57,12 @@ main .card {
   padding: 10px;
 }
 
+main a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
 main .button {
   display: flex;
   justify-content: center;
@@ -88,5 +94,45 @@ main .button button {
 
 .main-bottom .item img {
   height: 100px;
+}
+
+footer {
+  height: 500px;
+  background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
+  color: white;
+  justify-content: space-around;
+}
+
+footer img {
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+footer li {
+  color: grey;
+  padding-top: 5px;
+}
+
+footer li a {
+  text-decoration: none;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+.footer-bottom {
+  background-color: #303030;
+  height: 100px;
+  justify-content: space-around;
+}
+
+.footer-bottom button {
+  color: white;
+  background-color: #0282f9;
+  padding: 10px 40px;
+  border: none;
+  padding: 10px;
 }
 

@@ -3,7 +3,8 @@
 
 <header>
     <div class="flex container">
-        <img src="/img/dc-logo.png" alt="Jumbotron_Comics">
+        <a href="/"><img src="/img/dc-logo.png" alt="Jumbotron_Comics"></a>
+        
         <nav>
             <ul>
                 <a href="/"><li>CHARACTERS</li></a>    
