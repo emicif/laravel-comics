@@ -22,5 +22,9 @@
     </div>
 
 
-    <img src="/img/jumbotron.jpg" alt="Jumbotron_Comics">
+<img class="jumbotron" src="/img/jumbotron.jpg" alt="Jumbotron_Comics">
+
+
+
+
 </header>
