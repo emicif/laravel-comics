@@ -9,16 +9,22 @@
 <body>
     @include ('partials/layout')
     <main>
-        <!-- foreach per card -->
+        <div class="card-container">
+            <!-- foreach per card -->
             @foreach ($card as $item)
-            <div>
-                <img src={{$item ['thumb']}} alt="{{$item ['series'] }}">
-            
-            <span>{{$item ['series'] }}</span>
-            </div>
-            @endforeach
-    
+                <div class="card">
+                    <img src={{$item ['thumb']}} alt="{{$item ['series'] }}">
+                    <p>{{$item ['series'] }}</p>
+                </div>
+                @endforeach
+        </div>
+        <div class="button">
+            <button>LOAD MORE</button>
+        </div>
+        
+        
     </main>
-    
+    @include ('partials/footer')
+
 </body>
 </html>

@@ -8,30 +8,16 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
-
+        <link rel="stylesheet" href="css/app.css">
         <!-- Styles -->
         <style>
-            main {
-                background-color: #fff;
-                color: #636b6f;
-                font-family: 'Nunito', sans-serif;
-                font-weight: 200;
-                height: 100vh;
-                margin: 0;
-                align-items: center;
-                display: flex;
-                justify-content: center;
-            }
-
-            .full-height {
-                height: 100vh;
-            }
+            
 
         </style>
     </head>
     <body>
             <!-- include header -->
             @include ('partials/header')
-
+            
     </body>
 </html>
