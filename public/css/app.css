@@ -31,6 +31,10 @@ header nav ul a {
   text-decoration: none;
 }
 
+header nav ul .jumbo-top-bg {
+  background-image: url("/img/jumbotron.jpg");
+}
+
 .jumbotron {
   width: 100%;
   height: 500px;

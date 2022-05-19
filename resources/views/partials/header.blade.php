@@ -1,31 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <title>Document</title>
+</head>
 
-<header>
-    <div class="flex container">
-        <a href="/"><img src="/img/dc-logo.png" alt="Jumbotron_Comics"></a>
-        
-        <nav>
-            <ul>
-                <a href="/"><li>CHARACTERS</li></a>    
-                <a href="/"><li>COMICS</li></a>
-                <a href="/"><li>MOVIES</li></a>
-                <a href="/"><li>TV</li></a>
-                <a href="/"><li>GAMES</li></a>
-                <a href="/"><li>COLLECTIBLES</li></a>
-                <a href="/"><li>VIDEOS</li></a>
-                <a href="/"><li>FANS</li></a>
-                <a href="/"><li>NEWS</li></a>
-                <a href="/"><li>SHOP</li></a>
-            </ul>
-            
-        </nav>
-    </div>
+<body>
+    <header>
+        <div class="flex container">
+            <a href="/"><img src="/img/dc-logo.png" alt="Jumbotron_Comics"></a>
 
+            <nav>
+                <ul>
+                    @foreach ($navigation as $item)
+                        <li>
+                            <a href="{{ $item['url'] }}">{{ $item['text'] }}</a>
+                        </li>
+                    @endforeach
+                </ul>
 
-<img class="jumbotron" src="/img/jumbotron.jpg" alt="Jumbotron_Comics">
+            </nav>
+        </div>
 
+        <div class="jumbo-top-bg">
+            FOOTER
+            <img class="jumbotron" src="/img/jumbotron.jpg" alt="Jumbotron_Comics">
+        </div>
+    </header>
+</body>
 
-
-
-</header>
+</html>
