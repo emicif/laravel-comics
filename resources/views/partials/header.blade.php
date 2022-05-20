@@ -27,7 +27,7 @@
         </div>
 
         <div class="jumbo-top-bg">
-            JUMBOTRON
+
             {{-- <img class="jumbotron" src="/img/jumbotron.jpg" alt="Jumbotron_Comics"> --}}
         </div>
     </header>

@@ -28,20 +28,30 @@
 
         <div class="main-bottom">
             <div class="item">
-
-                <img src="img/buy-comics-digital-comics.png" alt="">
+                <div class="img-container">
+                    <img src="img/buy-comics-digital-comics.png" alt="Digital Comics">
+                </div>
                 <p>DIGITAL COMICS</p>
             </div>
+
             <div class="item">
-                <img src="img/buy-comics-merchandise.png" alt="">
+                <div class="img-container">
+                    <img src="img/buy-comics-merchandise.png" alt="Buy Comics Merchandise">
+                </div>
                 <p>DC MERCHANDISE</p>
             </div>
+
             <div class="item">
-                <img src="img/buy-comics-subscriptions.png" alt="">
+                <div class="img-container">
+                    <img src="img/buy-comics-subscriptions.png" alt="Buy Comics Subscriptions">
+                </div>
                 <p>SUBSCRIPTION</p>
             </div>
+
             <div class="item">
-                <img src="img/buy-comics-shop-locator.png" alt="">
+                <div class="img-container">
+                    <img src="img/buy-comics-shop-locator.png" alt="Buy Comics Shop Locator">
+                </div>
                 <p>COMIC SHOP LOCATOR</p>
             </div>
 

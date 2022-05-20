@@ -34,7 +34,7 @@ header nav ul a {
 .jumbo-top-bg {
   height: 500px;
   width: 100%;
-  background-image: url(/images/jumbotron.jpg?1b0a3671766964a4114f90322970b124);
+  background-image: url("/images/jumbotron.jpg");
 }
 
 .jumbotron {
@@ -98,6 +98,12 @@ main .button button {
   padding: 10px;
 }
 
+.main-bottom .item .img-container {
+  height: 200px;
+  padding-top: 35px;
+  padding-right: 10px;
+}
+
 .main-bottom .item img {
   height: 100px;
 }
@@ -106,6 +112,7 @@ footer {
   height: 500px;
   background-image: url(/images/footer-bg.jpg?dfd68d2946f211e1b678af05fd2f830b);
   color: white;
+  width: 100%;
   justify-content: space-around;
 }
 
@@ -117,28 +124,75 @@ footer img {
 
 footer li {
   color: grey;
-  padding-top: 5px;
+  padding-top: 10px;
+}
+
+footer h3 {
+  padding-top: 10px;
 }
 
 footer li a {
   text-decoration: none;
+  color: grey;
 }
 
 footer ul {
   list-style-type: none;
 }
 
+footer .paragrafo {
+  padding-top: 10px;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #0282f9;
+}
+
 .footer-bottom {
   background-color: #303030;
   height: 100px;
   justify-content: space-around;
+  line-height: 100px;
+  vertical-align: middle;
 }
 
 .footer-bottom button {
+  height: 60px;
   color: white;
   background-color: #0282f9;
   padding: 10px 40px;
   border: none;
-  padding: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.footer-bottom img {
+  height: 30px;
+  vertical-align: middle;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.footer-bottom .bottom-description {
+  line-height: 100px;
+  vertical-align: middle;
+}
+
+.footer-bottom .bottom-description a {
+  color: #037eec;
+  text-decoration: none;
+}
+
+.card-container {
+  display: flex;
+}
+
+.price {
+  height: 50px;
+  background-color: green;
+  line-height: 50px;
+  vertical-align: middle;
+  color: white;
 }
 

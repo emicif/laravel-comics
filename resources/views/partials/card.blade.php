@@ -12,13 +12,17 @@
 
     @include('partials/layout')
 
+    <h2>{{ $comic['title'] }}</h2>
+    <p class="price">U.S. Price: {{ $comic['price'] }}</p>
 
-    {{ $comic['title'] }}
-    <div>
-        <img src="{{ $comic['thumb'] }}" alt="">
+
+    <div class="card-container">
+        <p>{{ $comic['description'] }}</p>
+        <div>
+            <img src="{{ $comic['thumb'] }}" alt="">
+        </div>
     </div>
-    <p>{{ $comic['price'] }}</p>
-    <p>{{ $comic['description'] }}</p>
+
 
 
 

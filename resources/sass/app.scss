@@ -38,15 +38,13 @@ header nav ul {
         text-decoration: none;
     }
 
-
 }
 
 .jumbo-top-bg {
 
     height: 500px;
     width: 100%;
-    background-image: url("../../public/images/jumbotron.jpg");
-
+    background-image: url("/images/jumbotron.jpg");
 }
 
 
@@ -112,14 +110,21 @@ main {
 
     .item {
         display: flex;
-
         color: white;
         line-height: 200px;
         vertical-align: middle;
         padding: 10px;
 
+        .img-container {
+            height: 200px;
+            padding-top: 35px;
+            padding-right: 10px;
+
+        }
+
         img {
             height: 100px;
+
         }
     }
 }
@@ -130,6 +135,7 @@ footer {
     height: 500px;
     background-image: url("../../public/img/footer-bg.jpg");
     color: white;
+    width: 100%;
     justify-content: space-around;
 
     img {
@@ -139,31 +145,86 @@ footer {
 
     li {
         color: grey;
-        padding-top: 5px;
+        padding-top: 10px;
+    }
+
+    h3 {
+        padding-top: 10px;
     }
 
     li a {
         text-decoration: none;
+        color: grey;
     }
 
     ul {
         list-style-type: none;
     }
 
+    .paragrafo {
+        padding-top: 10px;
+
+
+    }
+
+    p a {
+        text-decoration: none;
+        color: #0282f9;
+    }
 
 }
+
+
+
 
 .footer-bottom {
     background-color: #303030;
     height: 100px;
     justify-content: space-around;
+    line-height: 100px;
+    vertical-align: middle;
 
 
     button {
+        height: 60px;
         color: white;
         background-color: #0282f9;
         padding: 10px 40px;
         border: none;
-        padding: 10px;
+        margin-top: 20px;
+        cursor: pointer;
     }
+
+    img {
+        height: 30px;
+        vertical-align: middle;
+        padding-left: 10px;
+        cursor: pointer;
+    }
+
+    .bottom-description {
+        line-height: 100px;
+        vertical-align: middle;
+
+    }
+
+    .bottom-description a {
+        color: #037eec;
+        text-decoration: none;
+    }
+}
+
+
+// card
+
+.card-container {
+    display: flex;
+}
+
+.price {
+    height: 50px;
+    background-color: green;
+    line-height: 50px;
+    vertical-align: middle;
+    color: white;
 }

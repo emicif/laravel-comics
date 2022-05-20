@@ -25,14 +25,8 @@ Route::get('/', function () {
 
 
 Route::get('/card/{id}', function ($id) {
-
-
     $data = config('comics');
     $navigation = config('navigation');
     return view('partials/card', ["comic" => $data[$id], "navigation" => $navigation ]);
-
-    //return view('partials/card', [ "card"=> $data ]);
-
-
   });
 
